@@ -10,18 +10,6 @@ const galleryItemsCreate = galleryItems
 
 galleryBlock.innerHTML = galleryItemsCreate;
 
-// galleryBlock.addEventListener("click", onImageItemClick);
-
-// function onImageItemClick(item) {
-//   if (item.target.nodeName !== "IMG") {
-//     return;
-//   }
-//   item.preventDefault();
-
-//   //   if (simpleLightBoxCreate.close) {
-//   //     simpleLightBoxCreate.destroy;
-//   //   }
-// }
 const simpleLightBoxCreate = new SimpleLightbox(".gallery .gallery__item", {
   captionsData: "alt",
   captionDelay: 250,
