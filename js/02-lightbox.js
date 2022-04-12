@@ -22,7 +22,7 @@ function onImageItemClick(item) {
     captionsData: "alt",
     captionDelay: 250,
   });
-  if (simpleLightBoxCreate.close) {
-    simpleLightBoxCreate.destroy;
-  }
+  //   if (simpleLightBoxCreate.close) {
+  //     simpleLightBoxCreate.destroy;
+  //   }
 }
